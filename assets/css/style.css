@@ -1,0 +1,66 @@
+@import url(./reset.css);
+@import url(./background.css);
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+/* FOOTER */
+
+.status-bar {
+    padding: 2px 5px;
+    background-color: white;
+    height: 20px;
+    width: 100%;
+    color: black;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+/* form */
+
+.hidden {
+    display: none;
+}
+
+#form-container {
+    position: absolute;
+    z-index: 6;
+    width: 400px;
+    height: 100%;
+}
+
+#form-container form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #000;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#overlay {
+    background-color: #2009;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
